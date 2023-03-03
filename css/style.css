@@ -14,21 +14,22 @@ h1 {
     font-size: 45px;
     line-height: 46px;
     font-weight: 700;
-    /* margin: 0;
-    padding: 0; */
-    text-transform: uppercase;
+    margin: 0 0 10px;
 }
 h3 {
     font-family: var(--default-font);
     font-size: 22px;
-    font-weight: 600;
+    font-weight: 600;  
+    margin: 0 0 10px;
+}
+.on-uppercase{
     text-transform: uppercase;
 }
 .main-content{
     position: relative;
+    margin-top: 35px;
 }
 .top-image{
-    position: absolute;
     background-image: url(/images/chester-live.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -36,6 +37,12 @@ h3 {
     border-radius: 50%;
     width: 300px;
     height: 300px;
-    top: calc(100% + 60px);
-    left: 0;
+}
+
+.middle-content, .content-with-list{
+    margin-top: 25px;
+}
+
+footer{
+    margin-top: 35px;
 }
